@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/DataStructures.iml" filepath="$PROJECT_DIR$/DataStructures/DataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjecOriented/ObjecOriented.iml" filepath="$PROJECT_DIR$/ObjecOriented/ObjecOriented.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjecOriented/Parking/Parking.iml" filepath="$PROJECT_DIR$/ObjecOriented/Parking/Parking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hodge.iml" filepath="$PROJECT_DIR$/hodge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/test.iml" filepath="$PROJECT_DIR$/DataStructures/test.iml" />
+    </modules>
+  </component>
+</project>
