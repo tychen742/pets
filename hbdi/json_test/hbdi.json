@@ -1,0 +1,25 @@
+{
+    "file": [
+        {
+            "id": "54321",
+            "name": "some name",
+            "clr": [
+                "HIPAA",
+                "DIPAA",
+                "HHS",
+                "Human Subject"
+            ],
+            "directory": "someDirectory",
+            "date_created": "12-12-2020"
+        }
+    ],
+    "person": [
+        {
+            "id": "12345",
+            "name": "TY Chen",
+            "clr": [
+                "HIPPA"
+            ]
+        }
+    ]
+}

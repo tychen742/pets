@@ -1,0 +1,89 @@
+########## Search for the dependencies in the R dir of each archive ##########
+##### set vars
+# r_dir=packages/decomped/
+# ls R > list
+##### search R files for "library(" "require(" "::" "importFrom"
+# str="'library(' 'require(' '::' 'importFrom'"
+### Current TimeStamp
+dt=$( date +"_%Y%m%d-%H%M%S" )
+result=./results/results${dt}.list
+echo "Search results are printed to a ./results/results_DATETIME.list file"
+
+### loop for R folders (./packages/decomped/$archive_folder/R/
+### get a list of the decompressed archives from the decompressed dir
+ls -l ./decompressed/ | tail -n +2 > ./process_files/decompressed.list	### use -l to get time; tar_archives are in decomped
+### tail -n +2 means start from the 2nd line because ls -l adds an extra line "Total 0"
+
+### Print # of tar.gz archive files and DateTime
+ARCHIVE_TOTAL=$( wc -l process_files/decompressed.list | cut -f 8 -d' ' )
+echo "There are totally $ARCHIVE_TOTAL tar.gz folders in the decompressed directory: " > $result
+while read line; do 
+    ARCHIVENAME=$( echo $line | cut -d" " -f 9 )
+    DT_YEAR=$( echo $line | cut -d" " -f 8 )
+    DT_MONTH=$( echo $line | cut -d" " -f 6 )
+    DT_DATE=$( echo $line | cut -d" " -f 7 )
+    DATETIME=$( echo $DT_YEAR $DT_MONTH $DT_DATE )
+    echo $ARCHIVENAME	$DATETIME  # >> $result
+done < process_files/decompressed.list 
+
+# loop through the list && search for strings && output
+# find R dir first
+# if found, output: 1) package name 2) package archive name 3) pkg archive time 4) dependency name(s)
+
+ARCHIVE_COUNT=1
+FOUND_ARCHIVE_COUNT_TOTOAL=0
+FOUND_ARCHIVE_COUNT=0
+while read line ; do
+    echo # >> $result
+    ARCHIVE_LONG=$( echo $line | cut -d" " -f 9 )
+    ARCHIVE_VER=$( echo ${ARCHIVE_LONG##'.tar'} )
+    ARCHIVEDT=$( echo $line | cut -d" " -f 6-8 ) #command substitution
+
+    ##### search string
+    ### R dir
+    r_dir=./decompressed/$ARCHIVENAME/R/
+#    echo $r_dir
+    echo # >> $result
+    echo '##########' ${ARCHIVE_COUNT}/${ARCHIVE_TOTAL} '#######################################' # >> $result
+    echo '##########' $ARCHIVE_LONG  '####################' # >> $result # >> $result
+    echo '######################################################' # >> $result
+    
+    R_COUNT=1
+    ###  search: loop through all the .R files in an archive 
+    for file in ${r_dir}*.R ; do
+	R_FILE=$( echo $file | cut -d"/" -f 5 )
+	echo  # >> $result
+
+	### search: loop through patterns in one .R file
+	echo '#####' ${ARCHIVE_COUNT}.${R_COUNT} '## file: ' ${R_FILE} '################################ ' # >> $result
+    	FOUND_COUNT_R=0
+	LOOP_COUNT=1
+	STR_COUNT=1
+#	FOUND_COUNT_TERM=0
+	FOUND_COUNT_STR=0
+#	echo "## ${ARCHIVE_COUNT}.$R_COUNT.${LOOP_COUNT} ## search for" '"'${str}'"' # >> $result	 
+	for str in "require(" "library(" "::" "importFrom"  ; do
+	    FOUND_COUNT_STR=$( grep $str $file | wc -l ) ### num of terms in the .R file 
+	    echo "  " ${STR_COUNT} " " $FOUND_COUNT_STR '"'$str'"' in file $( echo $file | cut -d"/" -f 5 ) #  >> $result 
+	    grep $str $file | sed -e 's/^/       /' # >> $result   ### print the findings to $result
+#	    FOUND_COUNT_STR=$(( $FOUND_COUNT_STR + 	))
+	    FOUND_COUNT_R=$(( $FOUND_COUNT_R + $FOUND_COUNT_STR ))
+	    STR_COUNT=$(( $STR_COUNT + 1 ))
+   	done
+	echo "  " FOUND ${FOUND_COUNT_R} dependencies in $R_FILE 
+    	FOUND_ARCHIVE_COUNT=$(( $FOUND_ARCHIVE_COUNT + $FOUND_COUNT_R ))
+    	R_COUNT=$(( $R_COUNT + 1 ))
+    done
+
+# echo '     ' FOUND $FOUND_COUNT_R results in  $FILE 
+
+    echo
+    echo FOUND $FOUND_ARCHIVE_COUNT in  $ARCHIVE_VER
+
+    echo '##########' end of $ARCHIVE_LONG '#########' # >> $result
+    
+#    ARCHIVE_COUNT_TOTAL=$(( $ARCHIVE_COUNT_TOTAL + $FOUND_ARCHIVE_COUNT )) 
+done < ./process_files/decompressed.list
+
+# echo Found $ARCHIVE_COUNT_TOTAL
+

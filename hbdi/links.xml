@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+  <link>
+    <title>Public Genomic Data</title>
+    <url>https://www.completegenomics.com/public-data/</url>
+    <public> 1 </public>
+  </link>
+  <link>
+    <title> DNA Sequencing Data </title>
+    <url> https://www.bio.fsu.edu/~stevet/IntroBioInfo/Lab4.pdf </url>
+    <public> 1 </public>
+  </link>
+  <link>
+    <title> CGPM free services for high-throughput sequencing </title>
+    <url> https://genomics.fsu.edu/news/cgpm-free-services-high-throughput-sequencing </url>
+    <public> 1 </public>
+  </link>
+  <link>
+    <title> Learning Disabilities Dataset Repository </title>
+    <url> https://ldbase.org </url>
+    <public> 1 </public>
+  </link>
+  <link>
+    <title> Integrating Genotype and Phenotype </title>
+    <url> https://www.bio.fsu.edu/genphensearch/ </url>
+    <public> 1 </public>
+  </link>
+  <link>
+    <title> Tax Statistics </title>
+    <url> https://www.irs.gov/statistics </url>
+    <public> 1</public>
+  </link>
+</pages>

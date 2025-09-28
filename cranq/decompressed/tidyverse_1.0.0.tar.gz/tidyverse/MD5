@@ -1,0 +1,13 @@
+2a582bce44de99fef4eeeda3ed7c159a *DESCRIPTION
+0596f1603c1c93b5b7f6c67a5fcee683 *NAMESPACE
+2216c0c5984df84cc29446d475b9cf01 *R/conflicts.R
+a6be0ef428cb34907b029df7d6367e95 *R/update.R
+391c44b2cd15e85dbe0e01d4e2b43c3d *R/utils.R
+3ede02fe23d324badf2d0aeef2b48187 *R/zzz.R
+c83b181f85be8d7d127063834f44b7b2 *README.md
+fc3195e55abe37743442949a880f2133 *build/vignette.rds
+db2dce4c733429b2b80844a015ca3454 *inst/doc/manifesto.Rmd
+4dd04e811c1bfb5641e48021a419abcb *inst/doc/manifesto.html
+2122512f49bcda29fb93c6f185828d32 *man/tidyverse_conflicts.Rd
+9f9202ef7394c480a64eee40864dcaf8 *man/tidyverse_update.Rd
+db2dce4c733429b2b80844a015ca3454 *vignettes/manifesto.Rmd

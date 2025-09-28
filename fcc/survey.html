@@ -1,0 +1,151 @@
+<html>
+<head>
+    <link href="styles/survey.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 id="title">Survey Form</h1>
+
+<div id="form-outer">
+    <p id="description">Let us know how we can improve freeCodeCamp</p>
+
+    <form action="" autocomplete="on" id="survey-form">
+        <div class="rowTab">
+            <div class="labels">
+                <label for="name" id="name-label">*Name:</label></div>
+            <div class="rightTab">
+                <input class="input-field" id="name" name="name"
+                       placeholder="Enter your name"
+                       required type="text"></div>
+        </div>
+
+        <div class="rowTab">
+            <div class="labels">
+                <label for="email" id="email-label"> *Email: </label></div>
+            <div class="rightTab">
+                <input class="input-field" id="email"
+                       name="email"
+                       pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                       placeholder="Enter your email address" required
+                       type="email">
+            </div>
+        </div>
+
+        <div class="rowTab">
+            <div class="labels">
+                <label for="number" id="number-label">*Age: </label></div>
+            <div class="rightTab">
+                <input class="input-field" id="number" max="99" min="12" name="age"
+                       placeholder="Age" required type="number"></div>
+        </div>
+
+        <div class="rowTab">
+            <div class="labels">
+                <label>Which option best describes your current role? </label></div>
+            <div class="rightTab">
+                <div id="dropdown">
+                    <select>
+                        <option disabled>Select an option</option>
+                        <option value="student">Student</option>
+                        <option value="job">Full time job</option>
+                        <option value="learner">Full time learner</option>
+                        <option value="preferNo">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="rowTab">
+            <div class="labels">
+                <label>* How likely is that you would recommand freeCodeCamp to a
+                    friend?
+                </label></div>
+            <div class="rightTab">
+                <ul style="list-style: none">
+                    <li class="radio"><label>Definitely <input class="userRatings"
+                                                               name="recommand"
+                                                               type="radio"
+                                                               value="definitely">
+                    </label></li>
+                    <li class="radio"><label>Maybe<input class="userRatings"
+                                                         name="recommand" type="radio"
+                                                         value="maybe">
+                    </label></li>
+                    <li class="radio"><label>Not sure<input class="userRatings"
+                                                            name="recommand"
+                                                            type="radio"
+                                                            value="not_sure">
+                    </label></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rowTab">
+            <div class="labels">
+                <label> What do you like most in FCC:</label></div>
+            <div class="rightTab">
+                <div id="dropdown">
+                    <select>
+                        <option disabled selected value="Select an option">Select an
+                            option
+                        </option>
+                        <option value="0">Challenges</option>
+                        <option value="1">Projects</option>
+                        <option value="2">Community</option>
+                        <option value="3">Open source</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="rowTab">
+            <div class="labels">
+                <label>
+                    <p> Things that should be improved in the future
+
+                    (
+                    Check all that apply
+
+                    )
+                    : </p></label></div>
+            <div class="rightTab">
+                <input name="front-end" type="checkbox" value="front-end">Front-end
+                Projects<br>
+                <input name="back-end" type="checkbox" value="back-end">Back-end
+                Projects<br>
+                <input name="data-visual" type="checkbox" value="data-visual">Data
+                Visualization<br>
+                <input name="challenges" type="checkbox" value="challenges">Challenges<br>
+                <input name="open-source" type="checkbox" value="open-source">Open
+                Source
+                Community<br>
+                <input name="help-room" type="checkbox" value="help-room">Gitter help
+                rooms<br>
+                <input name="video" type="checkbox" value="video">Videos<br>
+                <input name="meetup" type="checkbox" value="meetup">City Meetups<br>
+                <input name="wiki" type="checkbox" value="wiki">Wiki<br>
+                <input name="forum" type="checkbox" value="forum">Forum<br>
+                <input name="additional" type="checkbox" value="additional">Additional
+                Courses<br>
+            </div>
+        </div>
+
+        <div class="rowTab">
+            <div class="labels">
+                <label>Any Comments or Suggestions?</label></div>
+            <div class="rightTab">
+                <textarea class="input-field" placeholder="Enter your comments here."
+                          style="height:50px;resize:vertical;"> </textarea>
+            </div>
+        </div>
+
+        <button id="submit" name="submit" type="submit">Submit</button>
+    </form>
+</div>
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>

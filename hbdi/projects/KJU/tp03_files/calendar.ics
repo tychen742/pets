@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//jEvents 2.0 for Joomla//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d8a293782421f550f41a06370036cab630
+CATEGORIES:Events
+SUMMARY:ALISE 2020 Annual Conference
+LOCATION:Wyndham Grand Pittsburgh Downtown\, 600 Commonwealth Pl\, Pittsburgh, PA 15
+ 222\, USA
+DESCRIPTION:<p><a href="https://ali.memberclicks.net/alise-2020-conference"><span><img 
+ style="margin: 0px auto; display: block;" title="" src="/assets/media/conf_
+ 2020/ALISE%202020%20Logo.jpg" alt="" width="265" height="183" align="" /></
+ span></a></p><p><span>Attend the ALISE 2020 Annual Conference, October 20-2
+ 3, 2020, in Pittsburgh, PA to explore the interconnected world of library a
+ nd information sciences, archives, knowledge management, information manage
+ ment, media studies, informatics, data science, computer science, and commu
+ nications.</span></p><p><a title="" href="/alise-2020-conference" target="_
+ self">Learn More</a></p>
+DTSTAMP:20200220T140946
+DTSTART;TZID=America/New_York;VALUE=DATE:20201020
+DTEND;TZID=America/New_York;VALUE=DATE:20201024
+SEQUENCE:0
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

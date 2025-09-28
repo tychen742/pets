@@ -1,0 +1,3 @@
+untar.sh  untar the tar.gz's in packages dir
+packages folder contains all downloaded archived packages (pkgname.*Version*.tar.gz) 
+tar_archive.list is a list of all tar.gz archives in packages/decomped/

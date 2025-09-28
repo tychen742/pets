@@ -1,0 +1,63 @@
+09/18/00
+* split pydict.lib to 26 small libs in order to increase search speed
+* fix some 'index out of range' problem in the original pydict.lib
+
+09/12/00
+* modify version number to 0.2.5 in README and dict.py
+* modify install.sh to fit the change in v0.2.5
+
+09/10/00
+* add pronunciation color display in HELP
+
+09/09/00
+* use freez() and thaw() in listbox and text widget, 
+  prevent blinking when showing word
+* add new help dialog and a new file called HELP
+* add "Search" button
+* add red color display to µü©Ê
+
+0.2.5
+* add K.K. phonetic symbols support
+
+09/06/00
+* modify install.sh to install files more precisely
+09/01/00
+* support Tab to select words in listbox
+08/29/00
+* add dict.lib patch from Anthony Fok
+* add pyDict.desktop
+08/27/00
+* add listbox scroll up or scroll down
+
+0.2.4
+* add autofocus to the Entry field
+* trim white spaces leading or tailing the word
+* press Ctrl + BackSpace to clear the Entry field
+
+0.2.3
+* auto select Xwindow version or console version (added by Platin)
+
+0.2.2
+* add Chinese to English lookup in console mode
+* add console mode help messages
+* fix the IndexError problem caused by some incomplete 
+  records in pydict.lib
+
+0.2.1
+* Transfer PRC's terms to ROC's terms in the pydict.lib
+  for the purpose of "Chinese --> English" reference.
+  by bv1al@new7.com.tw
+
+0.2.0
+* totally rewritten in python/gtk
+* add smart search mode
+
+0.1.9
+* add scrollbar
+
+0.1.8
+* fix the word sequence of pydict.lib
+* add scale function
+
+0.1.7
+* add Chinese to English lookup

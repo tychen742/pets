@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Is_It_Prime" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the number here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wnv-jb-KpL">
+                                <rect key="frame" x="0.0" y="243.66666666666663" width="375" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a number here:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KVw-sI-Qrc">
+                                <rect key="frame" x="107.33333333333333" y="196.66666666666666" width="160.33333333333337" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxl-LI-aFd">
+                                <rect key="frame" x="187.66666666666666" y="351.66666666666669" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtT-bS-Qs1">
+                                <rect key="frame" x="163" y="301.66666666666669" width="49" height="30"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JGt-gu-5Cf"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="C3t-ZW-IBg">
+                                <rect key="frame" x="103" y="97" width="169" height="55.666666666666657"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Oik-UT-1UG">
+                                        <rect key="frame" x="0.0" y="0.0" width="169" height="55.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is It Prime?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00Z-Q8-zzw">
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="55.666666666666664"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="55.670000000000002" id="Uv2-BH-JrC"/>
+                                                    <constraint firstAttribute="width" constant="168.66999999999999" id="sxT-VM-HFk"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="36"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Oik-UT-1UG" firstAttribute="centerX" secondItem="C3t-ZW-IBg" secondAttribute="centerX" id="4X4-8m-K4R"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nxl-LI-aFd" firstAttribute="top" secondItem="XtT-bS-Qs1" secondAttribute="bottom" constant="20" id="1sd-Pf-Yff"/>
+                            <constraint firstItem="XtT-bS-Qs1" firstAttribute="top" secondItem="wnv-jb-KpL" secondAttribute="bottom" constant="28" id="3WG-Sz-Nph"/>
+                            <constraint firstItem="C3t-ZW-IBg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GH0-h9-Fpr"/>
+                            <constraint firstItem="KVw-sI-Qrc" firstAttribute="top" secondItem="00Z-Q8-zzw" secondAttribute="bottom" constant="43.999999999999972" id="GMM-b1-mjQ"/>
+                            <constraint firstItem="00Z-Q8-zzw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="Hvm-Ag-keN"/>
+                            <constraint firstItem="nxl-LI-aFd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TIY-Tu-tvR"/>
+                            <constraint firstItem="wnv-jb-KpL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZSR-1e-2BQ"/>
+                            <constraint firstItem="XtT-bS-Qs1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iXM-CB-2Rq"/>
+                            <constraint firstItem="wnv-jb-KpL" firstAttribute="top" secondItem="KVw-sI-Qrc" secondAttribute="bottom" constant="29" id="jBn-uf-2Vm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wnv-jb-KpL" secondAttribute="trailing" id="mMA-3a-cVN"/>
+                            <constraint firstItem="KVw-sI-Qrc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rEF-d0-LZ7"/>
+                            <constraint firstItem="wnv-jb-KpL" firstAttribute="top" secondItem="KVw-sI-Qrc" secondAttribute="bottom" constant="26.5" id="vm3-aq-Dsx"/>
+                            <constraint firstItem="wnv-jb-KpL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zd6-EA-nyK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

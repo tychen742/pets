@@ -1,0 +1,130 @@
+[04-Oct-2015 23:17:27 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:17:27 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:17:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 16
+[04-Oct-2015 23:17:27 America/Chicago] PHP Warning:  include(mysql_connect.inc.php): failed to open stream: No such file or directory in /home2/polochen/public_html/gre/index.php on line 20
+[04-Oct-2015 23:17:27 America/Chicago] PHP Warning:  include(mysql_connect.inc.php): failed to open stream: No such file or directory in /home2/polochen/public_html/gre/index.php on line 20
+[04-Oct-2015 23:17:27 America/Chicago] PHP Warning:  include(): Failed opening 'mysql_connect.inc.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/polochen/public_html/gre/index.php on line 20
+[04-Oct-2015 23:17:27 America/Chicago] PHP Warning:  include(mysql_connect.inc.php): failed to open stream: No such file or directory in /home2/polochen/public_html/gre/function_box.php on line 3
+[04-Oct-2015 23:17:27 America/Chicago] PHP Warning:  include(mysql_connect.inc.php): failed to open stream: No such file or directory in /home2/polochen/public_html/gre/function_box.php on line 3
+[04-Oct-2015 23:17:27 America/Chicago] PHP Warning:  include(): Failed opening 'mysql_connect.inc.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/polochen/public_html/gre/function_box.php on line 3
+[04-Oct-2015 23:17:27 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home2/polochen/public_html/gre/index.php on line 28
+[04-Oct-2015 23:17:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:17:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:17:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 16
+[04-Oct-2015 23:17:30 America/Chicago] PHP Warning:  include(mysql_connect.inc.php): failed to open stream: No such file or directory in /home2/polochen/public_html/gre/index.php on line 20
+[04-Oct-2015 23:17:30 America/Chicago] PHP Warning:  include(mysql_connect.inc.php): failed to open stream: No such file or directory in /home2/polochen/public_html/gre/index.php on line 20
+[04-Oct-2015 23:17:30 America/Chicago] PHP Warning:  include(): Failed opening 'mysql_connect.inc.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/polochen/public_html/gre/index.php on line 20
+[04-Oct-2015 23:17:30 America/Chicago] PHP Warning:  include(mysql_connect.inc.php): failed to open stream: No such file or directory in /home2/polochen/public_html/gre/function_box.php on line 3
+[04-Oct-2015 23:17:30 America/Chicago] PHP Warning:  include(mysql_connect.inc.php): failed to open stream: No such file or directory in /home2/polochen/public_html/gre/function_box.php on line 3
+[04-Oct-2015 23:17:30 America/Chicago] PHP Warning:  include(): Failed opening 'mysql_connect.inc.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/polochen/public_html/gre/function_box.php on line 3
+[04-Oct-2015 23:17:30 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home2/polochen/public_html/gre/index.php on line 28
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 16
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/mysql_connect.inc.php on line 16
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/mysql_connect.inc.php on line 16
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[04-Oct-2015 23:22:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[04-Oct-2015 23:24:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:24:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:24:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 16
+[04-Oct-2015 23:24:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[04-Oct-2015 23:24:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[04-Oct-2015 23:24:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[04-Oct-2015 23:24:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[04-Oct-2015 23:24:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[04-Oct-2015 23:24:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[04-Oct-2015 23:25:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:25:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:25:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 16
+[04-Oct-2015 23:25:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[04-Oct-2015 23:25:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[04-Oct-2015 23:25:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[04-Oct-2015 23:25:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[04-Oct-2015 23:25:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[04-Oct-2015 23:25:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[04-Oct-2015 23:25:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:25:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 10
+[04-Oct-2015 23:25:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 16
+[04-Oct-2015 23:25:25 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[04-Oct-2015 23:25:25 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[04-Oct-2015 23:25:25 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[04-Oct-2015 23:25:25 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[04-Oct-2015 23:25:25 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[04-Oct-2015 23:25:25 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[04-Oct-2015 23:25:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/polochen/public_html/gre/index.php:7) in /home2/polochen/public_html/gre/index.php on line 16
+[04-Oct-2015 23:25:27 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[04-Oct-2015 23:25:27 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[04-Oct-2015 23:25:27 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[04-Oct-2015 23:25:27 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[04-Oct-2015 23:25:27 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[04-Oct-2015 23:25:27 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[04-Oct-2015 23:25:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[04-Oct-2015 23:25:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[04-Oct-2015 23:25:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[04-Oct-2015 23:25:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[04-Oct-2015 23:25:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 00:36:39 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[05-Oct-2015 00:36:39 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[05-Oct-2015 00:36:39 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[05-Oct-2015 00:36:39 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[05-Oct-2015 00:36:39 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 00:36:39 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[05-Oct-2015 01:44:08 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[05-Oct-2015 01:44:08 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[05-Oct-2015 01:44:08 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[05-Oct-2015 01:44:08 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[05-Oct-2015 01:44:08 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 01:44:08 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[05-Oct-2015 01:44:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[05-Oct-2015 01:44:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[05-Oct-2015 01:44:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[05-Oct-2015 01:44:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[05-Oct-2015 01:44:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 01:44:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[05-Oct-2015 01:44:20 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[05-Oct-2015 01:44:20 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[05-Oct-2015 01:44:20 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[05-Oct-2015 01:44:20 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[05-Oct-2015 01:44:20 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 01:44:20 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[05-Oct-2015 01:44:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[05-Oct-2015 01:44:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[05-Oct-2015 01:44:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[05-Oct-2015 01:44:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[05-Oct-2015 01:44:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 01:44:31 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[05-Oct-2015 01:44:36 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[05-Oct-2015 01:44:36 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[05-Oct-2015 01:44:36 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[05-Oct-2015 01:44:36 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[05-Oct-2015 01:44:36 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 01:44:36 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[05-Oct-2015 01:44:45 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[05-Oct-2015 01:44:45 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[05-Oct-2015 01:44:45 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[05-Oct-2015 01:44:45 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[05-Oct-2015 01:44:45 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 01:44:45 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[05-Oct-2015 01:45:11 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[05-Oct-2015 01:45:11 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[05-Oct-2015 01:45:11 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[05-Oct-2015 01:45:11 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[05-Oct-2015 01:45:11 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 01:45:11 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[05-Oct-2015 01:45:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[05-Oct-2015 01:45:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[05-Oct-2015 01:45:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[05-Oct-2015 01:45:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[05-Oct-2015 01:45:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 01:45:12 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167
+[05-Oct-2015 01:45:14 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 71
+[05-Oct-2015 01:45:14 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 85
+[05-Oct-2015 01:45:14 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 86
+[05-Oct-2015 01:45:14 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 87
+[05-Oct-2015 01:45:14 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 115
+[05-Oct-2015 01:45:14 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/polochen/public_html/gre/index.php on line 167

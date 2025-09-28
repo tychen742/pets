@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title> Title </title>
+</head>
+<body>
+<h1>This is a test site.<h1>
+
+<?php 
+print ("this is a test site.";
+// connect to db server, tables
+// Create connection
+$db_conn = mysqli_connect("localhost","root","redcar","word_list");
+// Check connection
+if (mysqli_connect_errno()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
+//show initial level (level 1)
+
+
+// ===== FLASH CARD ===== //
+// get 10 word from level 1
+// SELECT id FROM 7000
+// ORDER BY RAND()
+// LIMIT 5
+$result = mysqli_query($db_conn, "SELECT id FROM 7000");
+if (! $result) {
+	die('???'. mysql_error());
+}
+else{
+	print ("connection successful");
+}
+$row = mysqli_fetch_array($result))
+echo $row['id'];
+$test = 'SELECT * FROM 7000 ORDER BY RAND() LIMIT 5';
+echo $test['id'];
+//	echo $row['english'];
+//	echo $row['chinese'];
+	//. " ".$row['english']. " ".$row['chinese'];
+
+//echo $question
+
+//while 
+// get another 3 words from level 1
+// show flash card
+// make choice 
+
+
+// ===== LEVEL UP/DOWN ===== //
+// in a cycle of 10 cards
+// if correct, get another word from level 1.
+// if correct for consecutively 5 times, go up one level (to level 2).
+// if incorrect consecutively for 3 words in 10 words, move down 1 level
+
+
+// ===== record DIFFICULTY/DISCRIMINATION LEVEL ===== //
+// for every wrong answer, increase the difficulty level mark by 1 
+// for every correct answer, increase the easiness level mark by 1
+// when marking is greater than 5, show difficulty and discrimination levels. 
+
+
+// close MySQL connection
+mysqli_close($db_conn);
+?>
+</body>
+</html>

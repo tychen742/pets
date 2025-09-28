@@ -1,0 +1,77 @@
+<!-- Bootstrap v3.0.3 -->
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<section class="container" id="SurveyLink" style="margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; color:#333333; font-size:0.9em;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading"><strong>Instructions</strong></div>
+
+<div class="panel-body">
+<p>We are conducting an academic online survey/experiment about health information decision-making. We need to understand your knowledge on several health topics and how doing online health information seeking may change your ideas. Select the link below to complete the online experiment. At the end of the survey, you will receive a code to paste into the box below to receive credit for taking our survey.</p>
+
+<p><strong>Make sure to leave this window open as you complete the survey. </strong> When you are finished, you will return to this page to paste the code into the box.</p>
+<!-- <p style="font-size: 0.9em; font-style:italic; background-color:#eeeeee; padding:10px;"><strong>Template
+                        note for Requesters </strong>- To verify that Workers actually complete your survey, require
+                    each Worker to enter a <span style="text-decoration:underline;">unique</span> survey completion code
+                    to your HIT. Consult with your survey service provider on how to generate this code at the end of
+                    your survey.</p> --></div>
+</div>
+<!-- End Instruction -->
+
+<table>
+	<tbody>
+		<tr>
+			<td><strong>Survey link:</strong></td>
+			<td>
+			<div id="myelementLink" style="display: inline; font-family: Verdana, Geneva, sans-serif;">URL not shown. To perform this HIT, you must have Javascript and cookies enabled on your browser.</div>
+			<script type="text/javascript" language="JavaScript">
+                            var assignment_id_field = document.getElementById('myelementLink');
+                            var paramstr = window.location.search.substring(1);
+                            var parampairs = paramstr.split("&");
+                            var mturkworkerID = "";
+                            var mturkhitID = "";
+                            var mturkassignmentID = "";
+                            for (i in parampairs) {
+                                var pair = parampairs[i].split("=");
+                                if (pair[0] == "workerId") {
+                                    mturkworkerID = pair[1];
+                                }
+                                if (pair[0] == "hitId") {
+                                    mturkhitID = pair[1];
+                                }
+                                if (pair[0] == "assignmentId") {
+                                    mturkassignmentID = pair[1];
+                                }
+                                if (pair[0] == "turkSubmitTo") {
+                                    mturkturkSubmitTo = pair[1];
+                                }
+                            }
+
+                            if (mturkworkerID == "") {
+                                assignment_id_field.innerHTML = '<div>The link will appear here only if you accept this HIT.</div>';
+                            } else {
+                                assignment_id_field.innerHTML = '<a target="_blank" href="https://birlabs.net/index.php?workerId=' + mturkworkerID + '&hitId=' + mturkhitID + '&assignmentId=' + mturkassignmentID + '&turkSubmitTo=' + mturkturkSubmitTo + '"><h3><span style="color: rgb(255, 0, 0);"><span style="font-family: Verdana, Geneva, sans-serif "><b>Click here to begin taking the survey!</b></span></span></h3></a>';
+                            }
+                        </script>
+
+			<div class="link" id="linkDiv">&nbsp;</div>
+			</td>
+		</tr>
+		<tr>
+			<td><strong>Completion code:</strong></td>
+			<td style="vertical-align: middle;"><input class="form-control" id="surveycode" name="surveycode" placeholder="e.g. 123456" type="text" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</section>
+<!-- close container section -->
+<style type="text/css">
+    td, div {
+        font-size: 1.0em;
+        padding: 5px 5px;
+        vertical-align: middle;
+    }
+    body{
+        font-family: Verdana, Geneva, sans-serif;
+    }
+</style>

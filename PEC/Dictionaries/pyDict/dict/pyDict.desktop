@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Chinese/English Dictionary
+Name[zh_TW.Big5]=­^º~/º~­^¦r¨å
+Name[zh_CN.GB2312]=Ó¢ºº/ººÓ¢×Öµä
+Comment=A dictionary for Chinese <-> English
+Comment[zh_TW.Big5]=­^º~/º~­^¦r¨å
+Comment[zh_CN.GB2312]=Ó¢ºº/ººÓ¢×Öµä
+Exec=pydict -x
+Icon=/usr/share/icons/dict.xpm
+Terminal=0
+Type=Application

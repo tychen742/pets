@@ -1,0 +1,41 @@
+
+
+######  turn PHP to HTML   #####
+#Options +FollowSymLinks
+#RewriteEngine On
+#RewriteRule ^([^.]+).html$ /$1.php [QSA,L]
+##########
+
+
+Options -Indexes
+#AddType application/x-httpd-php .htm .html
+#Options +FollowSymlinks
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^(.+)\.zig$ /$1.php [NC,L]
+#RewriteEngine on
+#RewriteBase /
+#
+#RewriteCond %{THE_REQUEST} (.*)\.php
+#RewriteRule ^(.*)\.php $1.html [R=301,L]
+#
+#RewriteCond %{THE_REQUEST} (.*)\.html
+#RewriteRule ^(.*)\.html $1.php [L]
+
+######  turn PHP to HTML   #####
+# https://stackoverflow.com/questions/4548860/replacing-php-ext-with-html-through-htaccess
+#RewriteEngine on
+#RewriteBase /
+#
+#RewriteCond %{THE_REQUEST} (.*)\.php
+#RewriteRule ^(.*)\.php $1.html [R=301,L]
+#
+#RewriteCond %{THE_REQUEST} (.*)\.html
+#RewriteRule ^(.*)\.html $1.php [L]
+
+#####  end of turn PHP to HTML
+
+## ##  ## dd ###
+ErrorDocument 404 https://tychen.us/hbdi/404.php
+ErrorDocument 403 https://tychen.us/hbdi/403.php
+

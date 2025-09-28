@@ -1,0 +1,159 @@
+
+.css-pain {
+    position: relative;
+    background: #CEB888;
+    overflow: hidden;
+    height: 650px;
+    width: 100%;
+    max-width: 1300px;
+}
+.css-pain:before {
+    opacity: 0.75;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1300px;
+    /*position: absolute;*/
+    height: 650px;
+    /*height: 100%;*/
+    /*background-size: cover;*/
+    background-size: 100% 100%;
+    background-image: url('../images/technology-servers-server.jpg');
+    background-repeat: no-repeat;
+    /*opacity: ;*/
+    content: ' ';
+    left: 0;
+    top: 0;
+    z-index: 1;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+#lower-section {
+    position: relative;
+    overflow: auto;
+    /*height: 650px;*/
+    width: 100%;
+    max-width: 1300px;
+}
+#projects_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+#features_grid {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-row-gap: 10px;
+    /*grid-column-gap: 5px;*/
+}
+#features_grid .row {
+    padding: 0 10px 5px 5px;
+    /*grid-column-gap: 5px;*/
+    font-size: 1.25rem;
+    font-family: Tablet-Gothic-Condensed, FranklinGothicCondensed, 'Open sans', sans-serif !important;
+}
+#features_grid .row:first-child{
+    padding-top: 5px;
+}
+#features_grid .col-sm-2 {
+    /*background-color: lightgrey;*/
+    opacity: .9;
+    box-shadow: #BBBBBB;
+    background-color: #782f40;
+}
+#features_grid .col-sm-10 {
+    background-color: whitesmoke;
+    opacity: .9
+}
+.feature-logo {
+    padding-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: orange;
+    /*margin: auto;*/
+    /*background-color: lightgrey;*/
+}
+.feature-logo i {
+}
+.feature-title {
+    font-size: 1.2em;
+}
+.feature-desc {
+    vertical-align: center;
+    font-size: 0.95em;
+    padding: 5px 0;
+}
+.feature-desc h3 {font-size: 20px;padding-left: 3px;margin-bottom: 0;}
+.feature-desc p {font-size: 14px;color: #2D2D2D; text-overflow: ellipsis; }
+.projects_background {
+    position: relative;
+    /*height: 200px;*/
+}
+.projects_title {
+    top: 0;
+    height: 200px;
+    margin: 0;
+    color: white;
+    font-size: 1.8em;
+    line-height: 40px;
+    font-family: Tablet-Gothic-Condensed, FranklinGothicCondensed, 'Open sans', sans-serif !important;
+    font-weight: 800 !important;
+    padding: 25px 25px 25px 25px;
+    background: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;">
+}
+.projects_label {
+    position: relative; top: -5px; width: 100px; padding: 1px 3px 1px 5px;
+    line-height: 21px; color: black;
+    background-color: orange;
+    font-size: .9rem;
+}
+.projects_authoring {
+    text-transform: uppercase; padding: 5px 0 0 3px; font-size: 1.0rem
+}
+#tweeter_box {
+    padding-top: 5px;
+    overflow: auto;
+    height: 550px;
+}
+section, footer {width: 75%;margin: 0 auto;}
+
+.footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    padding: 5px 25px 50px 25px;
+
+    /*clear: both;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*!*width: 100%;*!*/
+    /*background-color: #CEB888;*/
+    width: 90%;
+    max-width: 950px;
+    height: 100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    font-size: 12px; color: #878787;
+    /*background-color: #FFFFFF;*/
+    /*border: 1px solid blue;*/
+}
+.scrolling > footer { height: 0; opacity: 0; }
+.footer a {
+    color: #915664;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+.footer a:hover {
+    color: #782F40;
+}
+.footer .block:hover, a:hover {
+    color: #3D3D3D
+}
+.scrolling > footer { height: 0; opacity: 0; }
