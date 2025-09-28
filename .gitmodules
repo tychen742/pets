@@ -1,0 +1,6 @@
+[submodule ".ty"]
+	path = .ty
+	url = git@github.com:tychen742/.ty.git
+[submodule "languages"]
+	path = languages
+	url = git@github.com:tychen742/languages.git
