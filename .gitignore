@@ -1,7 +1,7 @@
-to/
-language/
+# to/
+languages/
 .DS_Store
 .DS_Store
-*/.DS_Store
+.DS_Store
 .ty
 .ty/

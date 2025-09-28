@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"org.tychen.java","l":"Main"}]
