@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"org.tychen.java","c":"Main","l":"main(String[])","url":"main-java.lang.String:A-"},{"p":"org.tychen.java","c":"Main","l":"Main()"}]
