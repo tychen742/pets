@@ -6,12 +6,17 @@
   "scripts": {
     "watch": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "start": "nodemon server.js"
+=======
+    "start": "node server.js"
+>>>>>>> 92ce65a (committed @ 2025-0928-003304)
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.0",
     "ejs": "^3.1.7",
@@ -22,5 +27,11 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
+=======
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "nodemon": "^2.0.4",
+    "sanitize-html": "^1.27.4"
+>>>>>>> 92ce65a (committed @ 2025-0928-003304)
   }
 }

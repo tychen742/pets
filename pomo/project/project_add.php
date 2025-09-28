@@ -39,7 +39,11 @@ include '../includes/headers.php';
                 echo $username_pomodoro . "'s Existing Projects: " . "<br>";
                 try {
                     $sql = "SELECT title_project, id_user FROM project WHERE id_user = $userid_pomodoro ";
+<<<<<<< HEAD
                     $stmt = $conn->query($sql);
+=======
+                    $stmt = $conn_iss->query($sql);
+>>>>>>> 92ce65a (committed @ 2025-0928-003304)
                     $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     foreach ($results as $row) {
                         echo $row[title_project] . '<br>';

@@ -40,11 +40,19 @@ try {
     // $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     // set the PDO error mode to exception
     // SO STUPID you need to put ' ' around the variable.
+<<<<<<< HEAD
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $sql = "INSERT INTO task (title)
     VALUES ('$task_title')";
     // use exec() because no results are returned
     $conn->exec($sql);
+=======
+    $conn_iss->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $sql = "INSERT INTO task (title)
+    VALUES ('$task_title')";
+    // use exec() because no results are returned
+    $conn_iss->exec($sql);
+>>>>>>> 92ce65a (committed @ 2025-0928-003304)
     echo "You sucessfully added new task: ";
     echo $task_title . '<br>' . '<br>';
 } catch (PDOException $e) {
