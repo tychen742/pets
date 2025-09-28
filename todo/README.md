@@ -1,18 +1,24 @@
-<<<<<<< HEAD
-# tutorial source
-People create different tutorials from same or similar sources, so...
-https://www.opensourceforu.com/2020/02/creating-a-basic-to-do-app-with-node-js/
+# Php todo list
 
-# todo
-=======
-=======
->>>>>>> 92ce65a (committed @ 2025-0928-003304)
-1. disable username/password authentication
-2. pipeline: github integration with heroku (feeding heroku deployment from github)
-3. preventing adding blank items
-4. git branch from master to main (heroku auto deployment requirement)
-<<<<<<< HEAD
-5. layout of app
-=======
-5. layout of app
->>>>>>> 92ce65a (committed @ 2025-0928-003304)
+Simple beautiful todo-list app in php oop and mysql
+
+<h3>Features:</h3>
+<ul class="p-3 mb-0">
+  <li>Add todo</li>
+  <li>Edit todo</li>
+  <li>Delete todo</li>
+  <li>Done todo</li>
+  <li>Return todo</li>
+  <li>Todos saves in database</li>
+</ul>
+
+![deee](https://user-images.githubusercontent.com/17897626/114297603-b07b3a00-9ac6-11eb-9454-acfbeb62fb92.jpg)
+
+# Installation
+  - Create a database
+  - Goto todo.class.php file and insert database name, database user name and password in class constants.
+  - Next go to youraddress/install address to creating required table automatically.
+  - Back to home and enjoy
+
+# Project History
+This project created by me at april 2021
