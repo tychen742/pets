@@ -1,0 +1,18 @@
+body {
+	background-color: azure;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 200px 250px 200px;
+	grid-auto-rows: minmax(100px, auto);
+	gap: 10px;
+	justify-items: stretch;
+	align-items: stretch;
+}
+
+.grid-item {
+	background-color: rgba(157, 117, 194, 1);
+	padding: 10px;
+    align-self: center;
+    justify-self: center;
+}
