@@ -1,1 +1,5 @@
 
+[submodule "hdsi"]
+	path = hdsi
+	url = git@github.com:tychen742/hdsi.git
+	branch = main
